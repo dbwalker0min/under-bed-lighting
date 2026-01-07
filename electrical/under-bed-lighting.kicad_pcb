@@ -582,7 +582,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "0bde5b7e-17df-4359-92da-589bdc6b2d91")
-		(at 41.91 73.66 90)
+		(at 38.219 73.66 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
@@ -1549,7 +1549,7 @@
 	(footprint "Fuse:Fuse_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "136ca991-960f-42ea-9b53-0095fa90017c")
-		(at 100.33 100.33 -90)
+		(at 100.33 99.06 -90)
 		(descr "Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "fuse")
 		(property "Reference" "F5"
@@ -2427,7 +2427,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "229dc6e0-dec4-4ca5-9e05-d2989253ed96")
-		(at 38.735 73.66)
+		(at 35.044 73.66)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "D6"
@@ -2818,7 +2818,7 @@
 	(footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "23869bb9-083d-4059-b69d-26d6a8f48bec")
-		(at 107.315 84.455)
+		(at 113.73 45.085)
 		(descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U3"
@@ -4440,11 +4440,11 @@
 	(footprint "Fuse:Fuse_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4086e7b0-0f6f-483a-b6e3-97643001b430")
-		(at 227.434 111.48)
+		(at 99.695 78.7525 90)
 		(descr "Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "fuse")
 		(property "Reference" "F9"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "1dadcf36-6008-493a-b17e-9830bbc1948d")
 			(effects
@@ -4455,7 +4455,7 @@
 			)
 		)
 		(property "Value" "0603L010YR"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "79bc4021-a183-4acc-9b12-e013dcdf0b3d")
 			(effects
@@ -4466,7 +4466,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/resettable-ptcs-0603l-datasheet?assetguid=879563f9-97a7-4e71-adba-37de085b333f"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dab7bf9f-9d04-4945-bdf5-77c3bd7cfffb")
@@ -4478,7 +4478,7 @@
 			)
 		)
 		(property "Description" "Polymeric PTC Resettable Fuse 15V 100 mA Ih Surface Mount 0603 (1608 Metric), Concave"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "98cb76b6-86c2-4e7d-b924-767c4b38b084")
@@ -4490,7 +4490,7 @@
 			)
 		)
 		(property "JLCPCB PN" "C3015223"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4503,7 +4503,7 @@
 			)
 		)
 		(property "DigiKey" "F2900CT-ND"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4563,7 +4563,7 @@
 			(uuid "b01a9287-7167-4925-ba6f-07529a6c23ae")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "ca30a098-6c4a-492d-8d68-7c7cb3e8df8d")
 			(effects
@@ -4574,7 +4574,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.7875 0)
+			(at -0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -4583,7 +4583,7 @@
 			(uuid "b55b087c-71cf-4c72-b7f4-6161695ea1bb")
 		)
 		(pad "2" smd roundrect
-			(at 0.7875 0)
+			(at 0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -4813,7 +4813,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "43369ef0-2edc-4333-b6b1-21357ad376a6")
-		(at 97.79 100.33 90)
+		(at 97.79 99.06 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R11"
@@ -5444,7 +5444,7 @@
 	(footprint "!Connectors:molex_705430002"
 		(layer "F.Cu")
 		(uuid "4b8c7f7a-105e-4ce8-af64-0cba3a1a1e82")
-		(at 102.235 103.4925 90)
+		(at 109.22 103.4925 90)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J7"
@@ -6908,11 +6908,11 @@
 	(footprint "Fuse:Fuse_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "6d14754e-3110-42a3-930a-25ae8c24af12")
-		(at 238.034 111.48)
+		(at 111.76 88.9 90)
 		(descr "Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "fuse")
 		(property "Reference" "F8"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "03016351-5d93-432e-90b1-2eee7ac6840a")
 			(effects
@@ -6923,7 +6923,7 @@
 			)
 		)
 		(property "Value" "0603L010YR"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "197f5289-92a2-41b3-9f6e-9e1d5bf8174a")
 			(effects
@@ -6934,7 +6934,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/resettable-ptcs-0603l-datasheet?assetguid=879563f9-97a7-4e71-adba-37de085b333f"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "83458144-ab62-4a22-9c48-6c48b03c9d0b")
@@ -6946,7 +6946,7 @@
 			)
 		)
 		(property "Description" "Polymeric PTC Resettable Fuse 15V 100 mA Ih Surface Mount 0603 (1608 Metric), Concave"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ada4d3ad-a3ae-49bf-bb92-fbd8cab4284f")
@@ -6958,7 +6958,7 @@
 			)
 		)
 		(property "JLCPCB PN" "C3015223"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6971,7 +6971,7 @@
 			)
 		)
 		(property "DigiKey" "F2900CT-ND"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7031,7 +7031,7 @@
 			(uuid "7a92eb25-a1a9-474d-9f20-1cc9b09eea03")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "bbe25474-57e5-4c53-a52a-fd9250bdd537")
 			(effects
@@ -7042,7 +7042,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.7875 0)
+			(at -0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -7051,7 +7051,7 @@
 			(uuid "cb0deba2-09b8-4748-92d9-fff7e93844b4")
 		)
 		(pad "2" smd roundrect
-			(at 0.7875 0)
+			(at 0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -7075,7 +7075,7 @@
 	(footprint "!Connectors:molex_705430002"
 		(layer "F.Cu")
 		(uuid "6ff6fada-643b-479b-966a-a4131932ab55")
-		(at 126.365 104.14 90)
+		(at 97.79 93.3325 90)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J8"
@@ -7710,11 +7710,11 @@
 	(footprint "Fuse:Fuse_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "74fd8be9-fda9-4081-961a-a7a49f0b465f")
-		(at 191.684 114.5)
+		(at 100.33 88.9 90)
 		(descr "Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "fuse")
 		(property "Reference" "F7"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "80c49645-4eae-4bb0-95c4-85d61c6c12b2")
 			(effects
@@ -7725,7 +7725,7 @@
 			)
 		)
 		(property "Value" "0603L010YR"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "0456d3b2-e146-4f08-acf0-970bd71d6c46")
 			(effects
@@ -7736,7 +7736,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/resettable-ptcs-0603l-datasheet?assetguid=879563f9-97a7-4e71-adba-37de085b333f"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c6acbbb7-9614-4737-b82a-96c01d964e1b")
@@ -7748,7 +7748,7 @@
 			)
 		)
 		(property "Description" "Polymeric PTC Resettable Fuse 15V 100 mA Ih Surface Mount 0603 (1608 Metric), Concave"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a10a8537-6d4a-4310-bbb7-635934a257a0")
@@ -7760,7 +7760,7 @@
 			)
 		)
 		(property "JLCPCB PN" "C3015223"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7773,7 +7773,7 @@
 			)
 		)
 		(property "DigiKey" "F2900CT-ND"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7833,7 +7833,7 @@
 			(uuid "fbbbaeb7-3da4-482c-bbbd-806333496e13")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "90e13b88-d756-4b14-97ca-50f36b05c6bf")
 			(effects
@@ -7844,7 +7844,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.7875 0)
+			(at -0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -7853,7 +7853,7 @@
 			(uuid "3ee8f314-5c53-4810-8873-822d2db36567")
 		)
 		(pad "2" smd roundrect
-			(at 0.7875 0)
+			(at 0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -8083,7 +8083,7 @@
 	(footprint "!Connectors:molex_705430002"
 		(layer "F.Cu")
 		(uuid "7b6d4f77-3e30-4822-8bde-7fa42aae40c9")
-		(at 148.59 104.14 90)
+		(at 97.155 83.1975 90)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J10"
@@ -10200,11 +10200,11 @@
 	(footprint "Fuse:Fuse_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "91f6e9d6-8061-4479-8c61-88f65b7d7d4d")
-		(at 181.084 114.5)
+		(at 111.76 99.06 -90)
 		(descr "Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "fuse")
 		(property "Reference" "F6"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "c3ba7302-5ab7-49f8-a326-b67eda08af3c")
 			(effects
@@ -10215,7 +10215,7 @@
 			)
 		)
 		(property "Value" "0603L010YR"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "572bd318-9492-4766-bdee-f1a38a6df476")
 			(effects
@@ -10226,7 +10226,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/resettable-ptcs-0603l-datasheet?assetguid=879563f9-97a7-4e71-adba-37de085b333f"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bbd32ca5-eb42-490b-8cca-43981db435e3")
@@ -10238,7 +10238,7 @@
 			)
 		)
 		(property "Description" "Polymeric PTC Resettable Fuse 15V 100 mA Ih Surface Mount 0603 (1608 Metric), Concave"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "849e53f9-e368-439e-b924-54861946040e")
@@ -10250,7 +10250,7 @@
 			)
 		)
 		(property "JLCPCB PN" "C3015223"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10263,7 +10263,7 @@
 			)
 		)
 		(property "DigiKey" "F2900CT-ND"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10281,16 +10281,6 @@
 		(sheetfile "pir-sensor.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.162779 -0.51)
-			(end 0.162779 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8543c67a-4e92-4c28-bb17-2f821884fb9e")
-		)
-		(fp_line
 			(start -0.162779 0.51)
 			(end 0.162779 0.51)
 			(stroke
@@ -10299,6 +10289,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "67b20512-a1dd-4e14-8f11-17158989df90")
+		)
+		(fp_line
+			(start -0.162779 -0.51)
+			(end 0.162779 -0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8543c67a-4e92-4c28-bb17-2f821884fb9e")
 		)
 		(fp_rect
 			(start -1.48 -0.73)
@@ -10323,7 +10323,7 @@
 			(uuid "c1490fb5-15bc-4a7b-91f9-2c68547701f8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "b23b9b79-0d26-43a7-93b4-813ea1368655")
 			(effects
@@ -10334,7 +10334,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.7875 0)
+			(at -0.7875 0 270)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10343,7 +10343,7 @@
 			(uuid "89b86e0d-8346-4caa-adc1-483344e00c73")
 		)
 		(pad "2" smd roundrect
-			(at 0.7875 0)
+			(at 0.7875 0 270)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10916,7 +10916,7 @@
 	(footprint "!Connectors:molex_705430002"
 		(layer "F.Cu")
 		(uuid "957ce2c3-8efd-4c36-b222-db3f02152a4c")
-		(at 160.02 104.14 90)
+		(at 108.585 83.185 90)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J11"
@@ -11595,7 +11595,7 @@
 	(footprint "!Connectors:molex_705430002"
 		(layer "F.Cu")
 		(uuid "a02f0d57-f247-4e8e-a660-5b47b26671b3")
-		(at 90.805 103.4925 90)
+		(at 97.79 103.4925 90)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J6"
@@ -12808,11 +12808,11 @@
 	(footprint "Fuse:Fuse_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ac39b1be-d6e7-498a-be00-8e4a095fa537")
-		(at 202.284 114.5)
+		(at 111.125 78.7525 90)
 		(descr "Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "fuse")
 		(property "Reference" "F10"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "3c565733-6838-41d4-ab82-f5518a462458")
 			(effects
@@ -12823,7 +12823,7 @@
 			)
 		)
 		(property "Value" "0603L010YR"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "feddfdfe-d0e5-409c-a1a0-84aab6ee1a72")
 			(effects
@@ -12834,7 +12834,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/resettable-ptcs-0603l-datasheet?assetguid=879563f9-97a7-4e71-adba-37de085b333f"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ce5fd125-5de0-4021-8c88-ac5b784402d3")
@@ -12846,7 +12846,7 @@
 			)
 		)
 		(property "Description" "Polymeric PTC Resettable Fuse 15V 100 mA Ih Surface Mount 0603 (1608 Metric), Concave"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ad2677ea-69a2-42ab-aa51-1a7b4b92b9e2")
@@ -12858,7 +12858,7 @@
 			)
 		)
 		(property "JLCPCB PN" "C3015223"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12871,7 +12871,7 @@
 			)
 		)
 		(property "DigiKey" "F2900CT-ND"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12931,7 +12931,7 @@
 			(uuid "bdc8bf25-9901-4c71-a905-7ccb0e423270")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "2e329241-7283-4399-bdec-a173d1fb56aa")
 			(effects
@@ -12942,7 +12942,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.7875 0)
+			(at -0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -12951,7 +12951,7 @@
 			(uuid "a1644f55-e1af-44e1-956d-ccc19b448df9")
 		)
 		(pad "2" smd roundrect
-			(at 0.7875 0)
+			(at 0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -13435,11 +13435,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b2e03299-4062-46c9-8ad7-8cac36286939")
-		(at 202.284 117.01)
+		(at 108.585 78.7225 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R21"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "16137433-9a9e-418b-a44d-e71930bf3843")
 			(effects
@@ -13450,7 +13450,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "5142e511-5ce4-4faa-b561-03fef2dd2bde")
 			(effects
@@ -13461,7 +13461,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "630d76fc-88b1-4f7e-8acf-080bc3ffe0da")
@@ -13473,7 +13473,7 @@
 			)
 		)
 		(property "Description" "100kΩ 100mW ±1% ±100ppm/℃"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8dcbf4aa-5cc8-4274-bd8f-7905fc454d61")
@@ -13485,7 +13485,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13498,7 +13498,7 @@
 			)
 		)
 		(property "Package" "603"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13511,7 +13511,7 @@
 			)
 		)
 		(property "JLCPCB PN" "C25803"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13524,7 +13524,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13537,7 +13537,7 @@
 			)
 		)
 		(property "Tempco" "±100ppm/℃"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13597,7 +13597,7 @@
 			(uuid "6cb66c7a-bc88-4b7e-8b37-e8ef30bfe4f1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "a947c40f-4eaa-45e6-878d-f85c0810cfa1")
 			(effects
@@ -13608,7 +13608,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -13617,7 +13617,7 @@
 			(uuid "687a288d-a21a-4a68-9a31-6a92579230b7")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -13847,7 +13847,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b6d40439-891a-4a6f-b0ad-c1142afcc7e4")
-		(at 66.540001 72.281 90)
+		(at 62.849001 72.281 90)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J2"
@@ -14108,11 +14108,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "bd38be99-3277-462f-b930-2ffe42142a8d")
-		(at 238.034 113.99)
+		(at 109.22 88.9 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R17"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "205011bc-a387-43a9-b8ec-1440217d8deb")
 			(effects
@@ -14123,7 +14123,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "b60320ab-cd20-4715-9b25-101fb4916fb4")
 			(effects
@@ -14134,7 +14134,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "af90d7be-7a5e-4cd4-93c8-49994226c255")
@@ -14146,7 +14146,7 @@
 			)
 		)
 		(property "Description" "100kΩ 100mW ±1% ±100ppm/℃"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c5e0eb07-ada2-473a-bec2-6f700fc19f3f")
@@ -14158,7 +14158,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14171,7 +14171,7 @@
 			)
 		)
 		(property "Package" "603"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14184,7 +14184,7 @@
 			)
 		)
 		(property "JLCPCB PN" "C25803"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14197,7 +14197,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14210,7 +14210,7 @@
 			)
 		)
 		(property "Tempco" "±100ppm/℃"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14270,7 +14270,7 @@
 			(uuid "9387f021-fbf8-4c69-bb95-c88df383a456")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "85c0574e-81e4-46aa-9726-8ca3e3663358")
 			(effects
@@ -14281,7 +14281,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -14290,7 +14290,7 @@
 			(uuid "3a245b3d-e55d-46cd-bf59-b4205dbfc820")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -14613,11 +14613,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c119c069-b326-47cb-a670-3f867d13464b")
-		(at 181.084 117.01)
+		(at 109.22 99.06 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "641cb449-f8af-460e-b4b8-22e4694e1892")
 			(effects
@@ -14628,7 +14628,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "97821b63-bf28-4866-9608-d5841dda2c95")
 			(effects
@@ -14639,7 +14639,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "be3f4e20-4208-4a20-a392-83f1c843a50f")
@@ -14651,7 +14651,7 @@
 			)
 		)
 		(property "Description" "100kΩ 100mW ±1% ±100ppm/℃"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c4d403de-8fbf-4281-acf4-9469858f86ac")
@@ -14663,7 +14663,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14676,7 +14676,7 @@
 			)
 		)
 		(property "Package" "603"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14689,7 +14689,7 @@
 			)
 		)
 		(property "JLCPCB PN" "C25803"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14702,7 +14702,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14715,7 +14715,7 @@
 			)
 		)
 		(property "Tempco" "±100ppm/℃"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14775,7 +14775,7 @@
 			(uuid "a1bca6e0-4055-4f10-8d63-a320c570ab6b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "84562d0f-f060-4e4b-903c-425a4c5b4175")
 			(effects
@@ -14786,7 +14786,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -14795,7 +14795,7 @@
 			(uuid "72844835-405e-4510-a0aa-10c38a9aadcd")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -15025,7 +15025,7 @@
 	(footprint "!Connectors:molex_705430002"
 		(layer "F.Cu")
 		(uuid "ca9af436-5081-4213-be24-ec116a74ae2b")
-		(at 136.525 104.14 90)
+		(at 109.22 93.345 90)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J9"
@@ -15248,11 +15248,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "cc2e21af-59ae-467b-95d9-10b2c336e618")
-		(at 191.684 117.01)
+		(at 97.79 88.9 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "c95de960-8a95-4cb7-927b-dc79c68c2be7")
 			(effects
@@ -15263,7 +15263,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "300b7e7a-630d-4668-a756-1b822a2a7b0a")
 			(effects
@@ -15274,7 +15274,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ec41998b-c082-41b7-b9ed-f00a34fb5baa")
@@ -15286,7 +15286,7 @@
 			)
 		)
 		(property "Description" "100kΩ 100mW ±1% ±100ppm/℃"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "db0bd8be-12f0-45b7-9311-3d5298b9311f")
@@ -15298,7 +15298,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15311,7 +15311,7 @@
 			)
 		)
 		(property "Package" "603"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15324,7 +15324,7 @@
 			)
 		)
 		(property "JLCPCB PN" "C25803"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15337,7 +15337,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15350,7 +15350,7 @@
 			)
 		)
 		(property "Tempco" "±100ppm/℃"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15410,7 +15410,7 @@
 			(uuid "b8e0cf03-7779-4bbf-af94-102f59252635")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "9a71adc5-012b-4c1e-87c1-1925e8fbef14")
 			(effects
@@ -15421,7 +15421,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -15430,7 +15430,7 @@
 			(uuid "166fcab7-3b1a-4064-b9af-919a29e3e4d3")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -15454,7 +15454,7 @@
 	(footprint "!RF_Modules:ESP32-C3-SUPER_MIN"
 		(layer "F.Cu")
 		(uuid "d41d1626-3e71-4c3a-a06e-d0c77f9c6ac5")
-		(at 60.706 88.646 180)
+		(at 57.015 88.646 180)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U1"
@@ -15975,19 +15975,19 @@
 			)
 			(polygon
 				(pts
-					(xy 46.456433 84.589097) (xy 46.442903 84.575567) (xy 46.441 84.566) (xy 46.441 69.891) (xy 35.086 69.891)
-					(xy 35.076433 69.889097) (xy 35.062903 69.875567) (xy 35.061 69.866) (xy 35.061 52.566) (xy 35.062903 52.556433)
-					(xy 35.076433 52.542903) (xy 35.086 52.541) (xy 70.086 52.541) (xy 70.095567 52.542903) (xy 70.109097 52.556433)
-					(xy 70.111 52.566) (xy 70.111 69.866) (xy 70.109097 69.875567) (xy 70.095567 69.889097) (xy 70.086 69.891)
-					(xy 59.731 69.891) (xy 59.731 84.566) (xy 59.729097 84.575567) (xy 59.715567 84.589097) (xy 59.706 84.591)
-					(xy 46.466 84.591)
+					(xy 42.765433 84.589097) (xy 42.751903 84.575567) (xy 42.75 84.566) (xy 42.75 69.891) (xy 31.395 69.891)
+					(xy 31.385433 69.889097) (xy 31.371903 69.875567) (xy 31.37 69.866) (xy 31.37 52.566) (xy 31.371903 52.556433)
+					(xy 31.385433 52.542903) (xy 31.395 52.541) (xy 66.395 52.541) (xy 66.404567 52.542903) (xy 66.418097 52.556433)
+					(xy 66.42 52.566) (xy 66.42 69.866) (xy 66.418097 69.875567) (xy 66.404567 69.889097) (xy 66.395 69.891)
+					(xy 56.04 69.891) (xy 56.04 84.566) (xy 56.038097 84.575567) (xy 56.024567 84.589097) (xy 56.015 84.591)
+					(xy 42.775 84.591)
 				)
 			)
 			(polygon
 				(pts
-					(xy 59.681 69.866) (xy 59.682903 69.856433) (xy 59.696433 69.842903) (xy 59.706 69.841) (xy 70.061 69.841)
-					(xy 70.061 52.591) (xy 35.111 52.591) (xy 35.111 69.841) (xy 46.466 69.841) (xy 46.475567 69.842903)
-					(xy 46.489097 69.856433) (xy 46.491 69.866) (xy 46.491 84.541) (xy 59.681 84.541)
+					(xy 55.99 69.866) (xy 55.991903 69.856433) (xy 56.005433 69.842903) (xy 56.015 69.841) (xy 66.37 69.841)
+					(xy 66.37 52.591) (xy 31.42 52.591) (xy 31.42 69.841) (xy 42.775 69.841) (xy 42.784567 69.842903)
+					(xy 42.798097 69.856433) (xy 42.8 69.866) (xy 42.8 84.541) (xy 55.99 84.541)
 				)
 			)
 		)
@@ -17504,11 +17504,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e07b9063-f8cc-4baf-9e16-e59efd38f2e4")
-		(at 227.434 113.99)
+		(at 97.155 78.7525 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R19"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "42cd33c7-b047-4c65-bc59-56b25d0bc95b")
 			(effects
@@ -17519,7 +17519,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "4a980bfd-dd2f-4563-8656-3db18f5d0e10")
 			(effects
@@ -17530,7 +17530,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "721fb3b9-872b-4e6f-8139-a1ca4df8b9ee")
@@ -17542,7 +17542,7 @@
 			)
 		)
 		(property "Description" "100kΩ 100mW ±1% ±100ppm/℃"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "957ac9b7-cea9-4397-9d4a-cdb6484b8d1c")
@@ -17554,7 +17554,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17567,7 +17567,7 @@
 			)
 		)
 		(property "Package" "603"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17580,7 +17580,7 @@
 			)
 		)
 		(property "JLCPCB PN" "C25803"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17593,7 +17593,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17606,7 +17606,7 @@
 			)
 		)
 		(property "Tempco" "±100ppm/℃"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17666,7 +17666,7 @@
 			(uuid "48f95bbc-e10d-442f-b34f-a3e6e85f7372")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "b31dfc69-4af1-4b82-a2b0-afdaf21c5067")
 			(effects
@@ -17677,7 +17677,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -17686,7 +17686,7 @@
 			(uuid "d38a4aea-2697-4a82-83b0-3b32903f7c15")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -18338,7 +18338,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "User.1")
+		(layer "Edge.Cuts")
 		(uuid "75eceb15-056c-4a13-a8b0-2c8259c51271")
 	)
 	(gr_poly
