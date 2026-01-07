@@ -364,7 +364,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(property "Footprint" "!Connectors:molex_0705430001"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3072,7 +3072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "!Connectors:molex_0705430001"
 			(at 168.91 76.2 0)
 			(effects
 				(font
