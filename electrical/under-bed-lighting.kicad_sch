@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "539bcff6-33eb-4388-b0b8-7341b324bbe7")
 	(paper "A4")
+	(title_block
+		(title "Under-bed Lighting Controller")
+		(date "2026-01-23")
+		(rev "A")
+	)
 	(lib_symbols
 		(symbol "!Capacitor-0603:100nF_X7R_50V"
 			(pin_numbers
@@ -1023,7 +1028,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Fuse:Fuse_1206_3216Metric"
+			(property "ki_fp_filters" "Fuse:Fuse_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1169,6 +1174,15 @@
 				)
 			)
 			(property "DigiKey" "CP-002AH-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FT Rotation Offset" "180"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1688,7 +1702,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "!Inductor-Power:74404064180"
+		(symbol "!Inductor-Power:SWPA6045S180MT"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1707,7 +1721,7 @@
 					)
 				)
 			)
-			(property "Value" "74404064180"
+			(property "Value" "SWPA6045S180MT"
 				(at 1.905 0 90)
 				(effects
 					(font
@@ -1724,7 +1738,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74404064180.pdf"
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588937128474918912"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1742,7 +1756,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB PN" "C1332431"
+			(property "JLCPCB PN" "C96954"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1769,7 +1783,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(property "ki_fp_filters" "!Inductors:*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1778,7 +1792,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "74404064180_0_1"
+			(symbol "SWPA6045S180MT_0_1"
 				(arc
 					(start 0 2.54)
 					(mid 0.6323 1.905)
@@ -1828,7 +1842,7 @@
 					)
 				)
 			)
-			(symbol "74404064180_1_1"
+			(symbol "SWPA6045S180MT_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -4443,6 +4457,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+28V"
 			(power)
 			(pin_numbers
@@ -4965,10 +5086,10 @@
 		(uuid "982d926c-fbcb-49aa-be31-90a503bc72f1")
 	)
 	(junction
-		(at 38.1 38.1)
+		(at 43.18 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9aa6befe-a94b-4f2c-9b18-1f5bc668922d")
+		(uuid "9eb39211-66c8-4995-8a06-0f91650a11f2")
 	)
 	(junction
 		(at 139.7 86.36)
@@ -5043,8 +5164,24 @@
 		(uuid "5f7e2ec4-ecef-4edc-aa34-ecafe2eb11db")
 	)
 	(no_connect
-		(at 86.36 104.14)
-		(uuid "be1b815c-34bc-400e-9b63-0429e919e629")
+		(at 276.86 46.99)
+		(uuid "7a53d2db-9413-4d41-b444-de391b704fc9")
+	)
+	(no_connect
+		(at 276.86 31.75)
+		(uuid "8415fbcd-6df9-4478-b157-0a3a1957ef50")
+	)
+	(no_connect
+		(at 86.36 106.68)
+		(uuid "cdcb5a7c-87a3-4f9f-8029-0b3f8d69f28a")
+	)
+	(no_connect
+		(at 276.86 53.34)
+		(uuid "dcbb3c0d-7f71-4a9d-a546-6f74069d5357")
+	)
+	(no_connect
+		(at 276.86 39.37)
+		(uuid "e740c042-3d2b-4d04-a35b-b614d7fd0b7d")
 	)
 	(wire
 		(pts
@@ -5085,6 +5222,16 @@
 			(type default)
 		)
 		(uuid "04a28b3c-5da9-4fb2-b16d-db4102dc2cec")
+	)
+	(wire
+		(pts
+			(xy 86.36 104.14) (xy 95.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b70ec4d-3814-4b3a-9308-5a5d5f80bcfb")
 	)
 	(wire
 		(pts
@@ -5278,16 +5425,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 38.1) (xy 54.61 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fb5c7c7-6cab-491e-8c10-e9f5dac3540f")
-	)
-	(wire
-		(pts
 			(xy 86.36 91.44) (xy 95.25 91.44)
 		)
 		(stroke
@@ -5418,7 +5555,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 38.1) (xy 38.1 38.1)
+			(xy 31.75 38.1) (xy 43.18 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5588,16 +5725,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 106.68) (xy 95.25 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dc17f01-0e8f-4739-91cf-d792503d84d1")
-	)
-	(wire
-		(pts
 			(xy 194.31 147.32) (xy 203.2 147.32)
 		)
 		(stroke
@@ -5685,6 +5812,16 @@
 			(type default)
 		)
 		(uuid "bd3f1da5-0b1c-43fd-952b-7993ec887f23")
+	)
+	(wire
+		(pts
+			(xy 43.18 38.1) (xy 54.61 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf65b30e-bb5d-40e9-aee3-9fca4adc9686")
 	)
 	(wire
 		(pts
@@ -5927,7 +6064,7 @@
 		(uuid "6aeff59b-fc1c-4356-bcfa-065abd72a771")
 	)
 	(label "LED2"
-		(at 95.25 106.68 180)
+		(at 95.25 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6857,6 +6994,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 24.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d79b5e0-f74d-40ad-85d2-581440c580bc")
 		)
@@ -7570,7 +7716,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "36e15f07-5161-4ede-aa50-fea1a775b5b4")
 		(property "Reference" "#FLG01"
 			(at 31.75 36.195 0)
@@ -7582,7 +7727,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 31.75 33.02 0)
+			(at 34.925 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8009,7 +8154,7 @@
 		)
 	)
 	(symbol
-		(lib_id "!Inductor-Power:74404064180")
+		(lib_id "!Inductor-Power:SWPA6045S180MT")
 		(at 167.64 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8026,7 +8171,7 @@
 				)
 			)
 		)
-		(property "Value" "74404064180"
+		(property "Value" "SWPA6045S180MT"
 			(at 167.64 43.18 90)
 			(effects
 				(font
@@ -8043,7 +8188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74404064180.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588937128474918912"
 			(at 167.64 45.72 0)
 			(effects
 				(font
@@ -8061,7 +8206,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C1332431"
+		(property "JLCPCB PN" "C96954"
 			(at 167.64 45.72 0)
 			(effects
 				(font
@@ -8128,7 +8273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588954567287443456"
 			(at 106.68 116.84 0)
 			(effects
 				(font
@@ -8146,7 +8291,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C504828"
+		(property "JLCPCB PN" "C2937625"
 			(at 106.68 116.84 0)
 			(effects
 				(font
@@ -8177,6 +8322,118 @@
 			(project "under-bed-lighting"
 				(path "/539bcff6-33eb-4388-b0b8-7341b324bbe7"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 276.86 29.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "63d9a1e6-0504-400b-85aa-6a7fe46cdb32")
+		(property "Reference" "H1"
+			(at 274.32 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 274.32 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2mm"
+			(at 276.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 276.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" ""
+			(at 276.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Origin" ""
+			(at 276.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 276.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 276.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 276.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "981fbacb-3b8f-4dff-8c43-f9296729f4e4")
+		)
+		(instances
+			(project ""
+				(path "/539bcff6-33eb-4388-b0b8-7341b324bbe7"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -8292,6 +8549,118 @@
 			(project "under-bed-lighting"
 				(path "/539bcff6-33eb-4388-b0b8-7341b324bbe7"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 276.86 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "72f4854d-d190-455d-994d-ec29d8950c6e")
+		(property "Reference" "H2"
+			(at 274.32 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 274.32 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2mm"
+			(at 276.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 276.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" ""
+			(at 276.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Origin" ""
+			(at 276.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 276.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 276.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 276.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27c37574-179b-422f-a013-732fb1327439")
+		)
+		(instances
+			(project "under-bed-lighting"
+				(path "/539bcff6-33eb-4388-b0b8-7341b324bbe7"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -8637,6 +9006,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 276.86 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "81b510bc-970a-4a15-8ede-b8060ea42945")
+		(property "Reference" "H4"
+			(at 274.32 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 274.32 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2mm"
+			(at 276.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 276.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" ""
+			(at 276.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Origin" ""
+			(at 276.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 276.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 276.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 276.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75d0e697-2880-4a30-a6cd-db89c4614f5b")
+		)
+		(instances
+			(project "under-bed-lighting"
+				(path "/539bcff6-33eb-4388-b0b8-7341b324bbe7"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 186.69 45.72 0)
 		(unit 1)
@@ -8916,6 +9397,118 @@
 			(project "under-bed-lighting"
 				(path "/539bcff6-33eb-4388-b0b8-7341b324bbe7"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 276.86 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "aebaef69-a35c-4a2d-82f0-784f197dc72c")
+		(property "Reference" "H3"
+			(at 274.32 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 274.32 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2mm"
+			(at 276.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 276.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" ""
+			(at 276.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Origin" ""
+			(at 276.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 276.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 276.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 276.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8838a6e-c660-4fcf-8961-62200f2f7051")
+		)
+		(instances
+			(project "under-bed-lighting"
+				(path "/539bcff6-33eb-4388-b0b8-7341b324bbe7"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -9348,7 +9941,7 @@
 	)
 	(symbol
 		(lib_id "power:+28V")
-		(at 38.1 38.1 0)
+		(at 43.18 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9357,7 +9950,7 @@
 		(fields_autoplaced yes)
 		(uuid "cee5ffea-9fcc-4719-b284-63b7c100fda7")
 		(property "Reference" "#PWR02"
-			(at 38.1 41.91 0)
+			(at 43.18 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9366,7 +9959,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 38.1 33.02 0)
+			(at 43.18 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9374,7 +9967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 36.83 0)
+			(at 49.53 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9383,7 +9976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 36.83 0)
+			(at 49.53 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9392,7 +9985,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+28V\""
-			(at 38.1 38.1 0)
+			(at 43.18 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)

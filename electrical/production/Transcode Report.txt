@@ -1,0 +1,191 @@
+
+
+   ---- Transcoding 'C:\Users\dbwal\AppData\Local\Temp\PentaLogix\ImportZip\2e02e850-ff40-4acd-8483-30f0058b5715\under-bed-lighting-F_Paste.gtp' ----   Fri Jan 23 16:21:41 2026
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+D17   --> D107
+D18   --> D108
+D19   --> D109
+D20   --> D110
+D21   --> D111
+D22   --> D112
+D23   --> D113
+D24   --> D114
+D25   --> D115
+D26   --> D116
+D27   --> D117
+D28   --> D118
+D29   --> D119
+D30   --> D120
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\dbwal\AppData\Local\Temp\PentaLogix\ImportZip\2e02e850-ff40-4acd-8483-30f0058b5715\under-bed-lighting-F_Mask.gts' ----   Fri Jan 23 16:21:41 2026
+
+D10   --> D121
+D11   --> D122
+D12   --> D123
+D13   --> D124
+D14   --> D125
+D15   --> D126
+D16   --> D127
+D17   --> D128
+D18   --> D129
+D19   --> D130
+D20   --> D131
+D21   --> D132
+D22   --> D133
+D23   --> D134
+D24   --> D135
+D25   --> D136
+D26   --> D137
+D27   --> D138
+D28   --> D139
+D29   --> D140
+D30   --> D141
+D31   --> D142
+D32   --> D143
+D33   --> D144
+D34   --> D145
+D35   --> D146
+D36   --> D147
+D37   --> D148
+D38   --> D149
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\dbwal\AppData\Local\Temp\PentaLogix\ImportZip\2e02e850-ff40-4acd-8483-30f0058b5715\under-bed-lighting-F_Cu.gtl' ----   Fri Jan 23 16:21:42 2026
+
+D10   --> D150
+D11   --> D151
+D12   --> D152
+D13   --> D153
+D14   --> D154
+D15   --> D155
+D16   --> D156
+D17   --> D157
+D18   --> D158
+D19   --> D159
+D20   --> D160
+D21   --> D161
+D22   --> D162
+D23   --> D163
+D24   --> D164
+D25   --> D165
+D26   --> D166
+D27   --> D167
+D28   --> D168
+D29   --> D169
+D30   --> D170
+D31   --> D171
+D32   --> D172
+D33   --> D173
+D34   --> D174
+D35   --> D175
+D36   --> D176
+D37   --> D177
+D38   --> D178
+D39   --> D179
+D40   --> D180
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\dbwal\AppData\Local\Temp\PentaLogix\ImportZip\2e02e850-ff40-4acd-8483-30f0058b5715\under-bed-lighting-In1_Cu.g1' ----   Fri Jan 23 16:21:42 2026
+
+D10   --> D181
+D11   --> D182
+D12   --> D183
+D13   --> D184
+D14   --> D185
+D15   --> D186
+D16   --> D187
+D17   --> D188
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\dbwal\AppData\Local\Temp\PentaLogix\ImportZip\2e02e850-ff40-4acd-8483-30f0058b5715\under-bed-lighting-In2_Cu.g2' ----   Fri Jan 23 16:21:42 2026
+
+D10   --> D189
+D11   --> D190
+D12   --> D191
+D13   --> D192
+D14   --> D193
+D15   --> D194
+D16   --> D195
+D17   --> D196
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\dbwal\AppData\Local\Temp\PentaLogix\ImportZip\2e02e850-ff40-4acd-8483-30f0058b5715\under-bed-lighting-B_Cu.gbl' ----   Fri Jan 23 16:21:42 2026
+
+D11   --> D197
+D12   --> D198
+D13   --> D199
+D14   --> D200
+D15   --> D201
+D16   --> D202
+D17   --> D203
+D18   --> D204
+D19   --> D205
+D20   --> D206
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\dbwal\AppData\Local\Temp\PentaLogix\ImportZip\2e02e850-ff40-4acd-8483-30f0058b5715\under-bed-lighting-B_Mask.gbs' ----   Fri Jan 23 16:21:42 2026
+
+D10   --> D207
+D11   --> D208
+D12   --> D209
+D13   --> D210
+D14   --> D211
+D15   --> D212
+D16   --> D213
+D17   --> D214
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\dbwal\AppData\Local\Temp\PentaLogix\ImportZip\2e02e850-ff40-4acd-8483-30f0058b5715\under-bed-lighting-B_Silkscreen.gbo' ----   Fri Jan 23 16:21:42 2026
+
+D10   --> D215
+D11   --> D216
+D12   --> D217
+D13   --> D218
+D14   --> D219
+D15   --> D220
+D16   --> D221
+D17   --> D222
+D18   --> D223
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\dbwal\AppData\Local\Temp\PentaLogix\ImportZip\2e02e850-ff40-4acd-8483-30f0058b5715\under-bed-lighting-Edge_Cuts.gm1' ----   Fri Jan 23 16:21:42 2026
+
+D10   --> D224
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\dbwal\AppData\Local\Temp\PentaLogix\ImportZip\2e02e850-ff40-4acd-8483-30f0058b5715\under-bed-lighting-NPTH-drl_map.gbr' ----   Fri Jan 23 16:21:42 2026
+
+D10   --> D225
+D11   --> D226
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\dbwal\AppData\Local\Temp\PentaLogix\ImportZip\2e02e850-ff40-4acd-8483-30f0058b5715\under-bed-lighting-PTH-drl_map.gbr' ----   Fri Jan 23 16:21:42 2026
+
+D10   --> D227
+D11   --> D228
+D12   --> D229
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\dbwal\AppData\Local\Temp\PentaLogix\ImportZip\2e02e850-ff40-4acd-8483-30f0058b5715\under-bed-lighting-NPTH.drl' ----   Fri Jan 23 16:21:42 2026
+
+T1   --> T4
+-----------------------------------------------------------------

@@ -254,7 +254,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Fuse:Fuse_1206_3216Metric"
+			(property "ki_fp_filters" "Fuse:Fuse_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -409,6 +409,15 @@
 					(hide yes)
 				)
 			)
+			(property "FT Rotation Offset" "90"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
@@ -418,7 +427,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "!Connectors:molex_0705430001"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3109,6 +3118,15 @@
 			)
 		)
 		(property "DigiKey" "WM4800-ND"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 168.91 76.2 0)
 			(effects
 				(font
