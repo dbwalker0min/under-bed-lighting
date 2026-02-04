@@ -96,10 +96,6 @@
           ""
         ],
         [
-          "silk_edge_clearance|109855000|125000000|c1100d5d-6d9f-49a1-ae0a-acb63e691fca|18708a66-78cc-4df8-adaa-9ef415182a8d",
-          ""
-        ],
-        [
           "silk_edge_clearance|74140000|125000000|c1100d5d-6d9f-49a1-ae0a-acb63e691fca|f7cbbb8b-1819-4267-a11f-95761a2ec534",
           ""
         ],
@@ -842,10 +838,6 @@
     [
       "1884ca5f-ffd7-4cd7-ae57-493efe65856a",
       "PIR Sensor5"
-    ],
-    [
-      "9b7d11f4-3dc0-4eb2-9ba7-20a4257e8b7b",
-      "PIR Sensor6"
     ]
   ],
   "text_variables": {}
