@@ -1,0 +1,10 @@
+i2c:
+  sda: GPIO8
+  scl: GPIO9
+  frequency: 100kHz
+
+display:
+  - platform: ssd1306_i2c
+    model: "SSD1306 72x40"
+    update_interval: 20s
+    address: 0x3C
