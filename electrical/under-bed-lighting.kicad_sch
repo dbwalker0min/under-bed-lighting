@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "539bcff6-33eb-4388-b0b8-7341b324bbe7")
-	(paper "A4")
+	(paper "A")
 	(title_block
 		(title "Under-bed Lighting Controller")
 		(date "2026-01-23")
@@ -3662,11 +3662,11 @@
 		(uuid "694e99bc-73ec-4dec-a262-cf4c152d5288")
 	)
 	(no_connect
-		(at 276.86 46.99)
+		(at 229.87 137.16)
 		(uuid "7a53d2db-9413-4d41-b444-de391b704fc9")
 	)
 	(no_connect
-		(at 276.86 31.75)
+		(at 229.87 121.92)
 		(uuid "8415fbcd-6df9-4478-b157-0a3a1957ef50")
 	)
 	(no_connect
@@ -3674,11 +3674,11 @@
 		(uuid "cdcb5a7c-87a3-4f9f-8029-0b3f8d69f28a")
 	)
 	(no_connect
-		(at 276.86 53.34)
+		(at 229.87 143.51)
 		(uuid "dcbb3c0d-7f71-4a9d-a546-6f74069d5357")
 	)
 	(no_connect
-		(at 276.86 39.37)
+		(at 229.87 129.54)
 		(uuid "e740c042-3d2b-4d04-a35b-b614d7fd0b7d")
 	)
 	(wire
@@ -5727,7 +5727,7 @@
 			)
 		)
 		(pin "6"
-			(uuid "fc3dc8c7-c3a4-4295-b2f6-6a7f632b4e90")
+			(uuid "fc3dc8c7-c3a4-4295-b2f6-6a7f632b4e92")
 		)
 		(pin "1"
 			(uuid "adf6292c-340d-4caa-bae9-3292de251273")
@@ -5736,37 +5736,37 @@
 			(uuid "92099a17-9183-4e1c-b0cc-9e122fb7c050")
 		)
 		(pin "4"
-			(uuid "15870f87-dbf6-4a6d-8fa8-d8b5515503c1")
+			(uuid "15870f87-dbf6-4a6d-8fa8-d8b5515503c3")
 		)
 		(pin "3"
 			(uuid "c8875575-d2e1-4030-9844-7c8e5fb93c33")
 		)
 		(pin "5"
-			(uuid "a52e9676-1124-47dd-a4be-c418c0a10833")
+			(uuid "a52e9676-1124-47dd-a4be-c418c0a10835")
 		)
 		(pin "7"
-			(uuid "aee0df8c-88c5-47af-97fe-d35833c2a494")
+			(uuid "aee0df8c-88c5-47af-97fe-d35833c2a496")
 		)
 		(pin "10"
-			(uuid "431d6ae5-2415-40ee-a91f-89620d908c35")
+			(uuid "431d6ae5-2415-40ee-a91f-89620d908c36")
 		)
 		(pin "14"
-			(uuid "a04cb5b5-5c50-4121-b4e6-5a2afca8404c")
+			(uuid "a04cb5b5-5c50-4121-b4e6-5a2afca8404e")
 		)
 		(pin "9"
-			(uuid "19ace08c-a544-4fc3-9a29-6bbcea1e99fc")
+			(uuid "19ace08c-a544-4fc3-9a29-6bbcea1e99fd")
 		)
 		(pin "12"
-			(uuid "70b09f3c-029a-45ee-8e20-100d2d99a010")
+			(uuid "70b09f3c-029a-45ee-8e20-100d2d99a012")
 		)
 		(pin "11"
-			(uuid "5d1b174c-5597-427c-8a4f-a1787ca4d6bf")
+			(uuid "5d1b174c-5597-427c-8a4f-a1787ca4d6c1")
 		)
 		(pin "8"
-			(uuid "2b41a750-0a38-43bf-9da2-a784c9332366")
+			(uuid "2b41a750-0a38-43bf-9da2-a784c9332367")
 		)
 		(pin "13"
-			(uuid "759f3bfc-2765-4b23-bfb8-0b151083cce7")
+			(uuid "759f3bfc-2765-4b23-bfb8-0b151083cce9")
 		)
 		(instances
 			(project "under-bed-lighting"
@@ -5867,7 +5867,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 276.86 29.21 0)
+		(at 229.87 119.38 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5876,7 +5876,7 @@
 		(dnp no)
 		(uuid "63d9a1e6-0504-400b-85aa-6a7fe46cdb32")
 		(property "Reference" "H1"
-			(at 274.32 26.6699 0)
+			(at 227.33 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5885,7 +5885,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 274.32 29.2099 0)
+			(at 227.33 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,7 +5894,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2mm"
-			(at 276.86 29.21 0)
+			(at 229.87 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5903,7 +5903,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 29.21 0)
+			(at 229.87 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5912,7 +5912,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 276.86 29.21 0)
+			(at 229.87 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5921,7 +5921,7 @@
 			)
 		)
 		(property "JLCPCB PN" ""
-			(at 276.86 29.21 0)
+			(at 229.87 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,7 +5930,7 @@
 			)
 		)
 		(property "FT Origin" ""
-			(at 276.86 29.21 0)
+			(at 229.87 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,7 +5939,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 276.86 29.21 0)
+			(at 229.87 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,7 +5948,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 276.86 29.21 0)
+			(at 229.87 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,7 +5957,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 276.86 29.21 0)
+			(at 229.87 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6160,7 +6160,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 276.86 36.83 0)
+		(at 229.87 127 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6169,7 +6169,7 @@
 		(dnp no)
 		(uuid "72f4854d-d190-455d-994d-ec29d8950c6e")
 		(property "Reference" "H2"
-			(at 274.32 34.2899 0)
+			(at 227.33 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,7 +6178,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 274.32 36.8299 0)
+			(at 227.33 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6187,7 +6187,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2mm"
-			(at 276.86 36.83 0)
+			(at 229.87 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6196,7 +6196,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 36.83 0)
+			(at 229.87 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,7 +6205,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 276.86 36.83 0)
+			(at 229.87 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6214,7 +6214,7 @@
 			)
 		)
 		(property "JLCPCB PN" ""
-			(at 276.86 36.83 0)
+			(at 229.87 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6223,7 +6223,7 @@
 			)
 		)
 		(property "FT Origin" ""
-			(at 276.86 36.83 0)
+			(at 229.87 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6232,7 +6232,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 276.86 36.83 0)
+			(at 229.87 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6241,7 +6241,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 276.86 36.83 0)
+			(at 229.87 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,7 +6250,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 276.86 36.83 0)
+			(at 229.87 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +6687,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 276.86 50.8 0)
+		(at 229.87 140.97 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6696,7 +6696,7 @@
 		(dnp no)
 		(uuid "81b510bc-970a-4a15-8ede-b8060ea42945")
 		(property "Reference" "H4"
-			(at 274.32 48.2599 0)
+			(at 227.33 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6705,7 +6705,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 274.32 50.7999 0)
+			(at 227.33 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6714,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2mm"
-			(at 276.86 50.8 0)
+			(at 229.87 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,7 +6723,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 50.8 0)
+			(at 229.87 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6732,7 +6732,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 276.86 50.8 0)
+			(at 229.87 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6741,7 +6741,7 @@
 			)
 		)
 		(property "JLCPCB PN" ""
-			(at 276.86 50.8 0)
+			(at 229.87 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,7 +6750,7 @@
 			)
 		)
 		(property "FT Origin" ""
-			(at 276.86 50.8 0)
+			(at 229.87 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,7 +6759,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 276.86 50.8 0)
+			(at 229.87 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,7 +6768,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 276.86 50.8 0)
+			(at 229.87 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6777,7 +6777,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 276.86 50.8 0)
+			(at 229.87 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7018,7 +7018,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 276.86 44.45 0)
+		(at 229.87 134.62 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7027,7 +7027,7 @@
 		(dnp no)
 		(uuid "aebaef69-a35c-4a2d-82f0-784f197dc72c")
 		(property "Reference" "H3"
-			(at 274.32 41.9099 0)
+			(at 227.33 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +7036,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 274.32 44.4499 0)
+			(at 227.33 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +7045,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2mm"
-			(at 276.86 44.45 0)
+			(at 229.87 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +7054,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 44.45 0)
+			(at 229.87 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7063,7 +7063,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 276.86 44.45 0)
+			(at 229.87 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7072,7 +7072,7 @@
 			)
 		)
 		(property "JLCPCB PN" ""
-			(at 276.86 44.45 0)
+			(at 229.87 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,7 +7081,7 @@
 			)
 		)
 		(property "FT Origin" ""
-			(at 276.86 44.45 0)
+			(at 229.87 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,7 +7090,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 276.86 44.45 0)
+			(at 229.87 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,7 +7099,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 276.86 44.45 0)
+			(at 229.87 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,7 +7108,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 276.86 44.45 0)
+			(at 229.87 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7358,7 +7358,7 @@
 			)
 		)
 		(pin "6"
-			(uuid "fc3dc8c7-c3a4-4295-b2f6-6a7f632b4e90")
+			(uuid "fc3dc8c7-c3a4-4295-b2f6-6a7f632b4e93")
 		)
 		(pin "1"
 			(uuid "542deb1e-627d-43ac-b3fb-88ccfa97fb1a")
@@ -7367,37 +7367,37 @@
 			(uuid "cc70f55d-5637-437c-854f-bed7605305ca")
 		)
 		(pin "4"
-			(uuid "15870f87-dbf6-4a6d-8fa8-d8b5515503c1")
+			(uuid "15870f87-dbf6-4a6d-8fa8-d8b5515503c4")
 		)
 		(pin "3"
 			(uuid "78d29331-8fbb-4e83-8630-42c88975fdba")
 		)
 		(pin "5"
-			(uuid "a52e9676-1124-47dd-a4be-c418c0a10833")
+			(uuid "a52e9676-1124-47dd-a4be-c418c0a10836")
 		)
 		(pin "7"
-			(uuid "aee0df8c-88c5-47af-97fe-d35833c2a494")
+			(uuid "aee0df8c-88c5-47af-97fe-d35833c2a497")
 		)
 		(pin "10"
-			(uuid "431d6ae5-2415-40ee-a91f-89620d908c35")
+			(uuid "431d6ae5-2415-40ee-a91f-89620d908c37")
 		)
 		(pin "14"
-			(uuid "a04cb5b5-5c50-4121-b4e6-5a2afca8404c")
+			(uuid "a04cb5b5-5c50-4121-b4e6-5a2afca8404f")
 		)
 		(pin "9"
-			(uuid "19ace08c-a544-4fc3-9a29-6bbcea1e99fc")
+			(uuid "19ace08c-a544-4fc3-9a29-6bbcea1e99fe")
 		)
 		(pin "12"
-			(uuid "70b09f3c-029a-45ee-8e20-100d2d99a010")
+			(uuid "70b09f3c-029a-45ee-8e20-100d2d99a013")
 		)
 		(pin "11"
-			(uuid "5d1b174c-5597-427c-8a4f-a1787ca4d6bf")
+			(uuid "5d1b174c-5597-427c-8a4f-a1787ca4d6c2")
 		)
 		(pin "8"
-			(uuid "2b41a750-0a38-43bf-9da2-a784c9332366")
+			(uuid "2b41a750-0a38-43bf-9da2-a784c9332368")
 		)
 		(pin "13"
-			(uuid "759f3bfc-2765-4b23-bfb8-0b151083cce7")
+			(uuid "759f3bfc-2765-4b23-bfb8-0b151083ccea")
 		)
 		(instances
 			(project "under-bed-lighting"
@@ -7887,7 +7887,7 @@
 			)
 		)
 		(pin "6"
-			(uuid "fc3dc8c7-c3a4-4295-b2f6-6a7f632b4e90")
+			(uuid "fc3dc8c7-c3a4-4295-b2f6-6a7f632b4e94")
 		)
 		(pin "1"
 			(uuid "9276a2f8-fb48-4bb9-8d9c-ff0e42ccf20b")
@@ -7896,37 +7896,37 @@
 			(uuid "02507c52-3b95-440d-83aa-ea3f4f78797d")
 		)
 		(pin "4"
-			(uuid "15870f87-dbf6-4a6d-8fa8-d8b5515503c1")
+			(uuid "15870f87-dbf6-4a6d-8fa8-d8b5515503c5")
 		)
 		(pin "3"
 			(uuid "25f30ed8-8a93-4d78-957e-59775851f795")
 		)
 		(pin "5"
-			(uuid "a52e9676-1124-47dd-a4be-c418c0a10833")
+			(uuid "a52e9676-1124-47dd-a4be-c418c0a10837")
 		)
 		(pin "7"
-			(uuid "aee0df8c-88c5-47af-97fe-d35833c2a494")
+			(uuid "aee0df8c-88c5-47af-97fe-d35833c2a498")
 		)
 		(pin "10"
-			(uuid "431d6ae5-2415-40ee-a91f-89620d908c35")
+			(uuid "431d6ae5-2415-40ee-a91f-89620d908c38")
 		)
 		(pin "14"
-			(uuid "a04cb5b5-5c50-4121-b4e6-5a2afca8404c")
+			(uuid "a04cb5b5-5c50-4121-b4e6-5a2afca84050")
 		)
 		(pin "9"
-			(uuid "19ace08c-a544-4fc3-9a29-6bbcea1e99fc")
+			(uuid "19ace08c-a544-4fc3-9a29-6bbcea1e99ff")
 		)
 		(pin "12"
-			(uuid "70b09f3c-029a-45ee-8e20-100d2d99a010")
+			(uuid "70b09f3c-029a-45ee-8e20-100d2d99a014")
 		)
 		(pin "11"
-			(uuid "5d1b174c-5597-427c-8a4f-a1787ca4d6bf")
+			(uuid "5d1b174c-5597-427c-8a4f-a1787ca4d6c3")
 		)
 		(pin "8"
-			(uuid "2b41a750-0a38-43bf-9da2-a784c9332366")
+			(uuid "2b41a750-0a38-43bf-9da2-a784c9332369")
 		)
 		(pin "13"
-			(uuid "759f3bfc-2765-4b23-bfb8-0b151083cce7")
+			(uuid "759f3bfc-2765-4b23-bfb8-0b151083cceb")
 		)
 		(instances
 			(project "under-bed-lighting"
