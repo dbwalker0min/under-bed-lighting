@@ -49,6 +49,14 @@ jobs:
             echo "artifact_name=under-bed-lighting-${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Create secrets.yaml
+        run: |
+          cat > devices/secrets.yaml <<'EOF'
+          wifi_ssid: "${{ secrets.WIFI_SSID }}"
+          wifi_password: "${{ secrets.WIFI_PASSWORD }}"
+          api_encryption_key: "${{ secrets.API_ENCRYPTION_KEY }}"
+          ota_password: "${{ secrets.OTA_PASSWORD }}"
+          EOF
       - name: Compile ESPHome config
         run: uvx esphome@2026.2.4 compile devices/under_bed_lighting.yaml
 
