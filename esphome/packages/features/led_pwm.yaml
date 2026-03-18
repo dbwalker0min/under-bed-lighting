@@ -1,0 +1,61 @@
+# This unit takes a set of three LEDs (variable `pin_ledn` where n is 1-3) and provides a PWM output to control their brightness.
+# The enable pin (`pin_led_enable`) is set high to enable the LEDs, and low to disable them. The brightness of the LEDs is controlled by the
+# `led_pwm` output, which can be set to a value between 0 and 100 (0 = off, 100 = full brightness).
+# This module uses the ESP32 LEDC output
+
+output:
+  - platform: ledc
+    id: led_pwm1
+    pin: ${pin_led1}
+    frequency: &FREQUENCY 1220Hz
+    channel: 0
+    phase_angle: 0
+    max_power: &MAX_POWER 33%
+
+  - platform: ledc
+    id: led_pwm2
+    pin: ${pin_led2}
+    frequency: *FREQUENCY
+    channel: 1
+    phase_angle: 120
+    max_power: *MAX_POWER
+
+  - platform: ledc
+    id: led_pwm3
+    pin: ${pin_led3}
+    frequency: *FREQUENCY
+    channel: 2
+    phase_angle: 240
+    max_power: *MAX_POWER
+
+# Enable pin for the LEDs
+switch:
+  - platform: gpio
+    id: led_enable
+    pin: ${pin_led_enable}
+    restore_mode: ALWAYS_ON
+    internal: true
+
+# Expose the light controls
+light:
+  - platform: monochromatic
+    id: ${slug}_light1
+    name: "${friendly_name} Light 1"
+    output: led_pwm1
+    restore_mode: &RESTORE_MODE RESTORE_DEFAULT_OFF
+    default_transition_length: &TRANSISTION 1s
+    gamma_correct: &GAMMA 2.8
+  - platform: monochromatic
+    id: ${slug}_light2
+    name: "${friendly_name} Light 2"
+    output: led_pwm2
+    restore_mode: *RESTORE_MODE
+    default_transition_length: *TRANSISTION
+    gamma_correct: *GAMMA
+  - platform: monochromatic
+    id: ${slug}_light3
+    name: "${friendly_name} Light 3"
+    output: led_pwm3
+    restore_mode: *RESTORE_MODE
+    default_transition_length: *TRANSISTION
+    gamma_correct: *GAMMA

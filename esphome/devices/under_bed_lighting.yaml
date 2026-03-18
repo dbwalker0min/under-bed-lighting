@@ -1,6 +1,7 @@
 
 substitutions:
   name: "under-bed-lighting"
+  slug: "under_bed_lighting"
   friendly_name: "Under Bed Lighting"
 
   pin_led_enable: GPIO0
@@ -20,9 +21,13 @@ substitutions:
   ap_password: !secret ap_password
 
 packages:
+  # Standard-ish ESPHome components for all devices
   board: !include ../packages/boards/esp32_c3_supermini.yaml
-  base: !include ../packages/base/device_base.yaml
+  base: !include ../packages/base/base.yaml
   diagnostics: !include ../packages/base/diagnostics.yaml
+
+  # Feature packages for this device
+  led_pwm: !include ../packages/features/led_pwm.yaml
 
   # This must be last because it contains debug components that should be overridden by other packages if needed
   debug: !include ../packages/base/debug.yaml
