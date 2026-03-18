@@ -1,0 +1,68 @@
+name: Build ESPHome
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - 'fw*'
+  pull_request:
+    paths:
+      - 'esphome/**'
+      - '.github/workflows/build-esphome.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        shell: bash
+        working-directory: esphome
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Cache PlatformIO
+        uses: actions/cache@v4
+        with:
+          path: ~/.platformio
+          key: platformio-${{ runner.os }}-esphome-2025.2.2
+          restore-keys: |
+            platformio-${{ runner.os }}-
+
+      - name: Determine artifact name
+        id: meta
+        run: |
+          if [[ "${GITHUB_EVENT_NAME}" == "workflow_dispatch" ]]; then
+            echo "artifact_name=dev" >> "$GITHUB_OUTPUT"
+          elif [[ "${GITHUB_REF_TYPE}" == "tag" ]]; then
+            echo "artifact_name=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT"
+          else
+            echo "artifact_name=under-bed-lighting-${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Compile ESPHome config
+        run: uvx esphome@2026.2.4 compile devices/under_bed_lighting.yaml
+
+      - name: Stage release files
+        run: |
+          mkdir -p release
+          find .esphome/build -name firmware.bin -exec cp {} release/${{ steps.meta.outputs.artifact_name }}.bin \;
+          find .esphome/build -name firmware.ota.bin -exec cp {} release/${{ steps.meta.outputs.artifact_name }}.ota.bin \;
+          find .esphome/build -name firmware.map -exec cp {} release/${{ steps.meta.outputs.artifact_name }}.map \;
+          find .esphome/build -name firmware.factory.bin -exec cp {} release/${{ steps.meta.outputs.artifact_name }}.factory.bin \; || true
+
+      - name: Upload staged release files
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.meta.outputs.artifact_name }}
+          path: esphome/release/*
+          if-no-files-found: error

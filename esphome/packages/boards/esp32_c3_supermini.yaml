@@ -5,6 +5,3 @@ esp32:
   framework:
     type: esp-idf
 
-# Use defaults for these components
-logger:
-  level: DEBUG
