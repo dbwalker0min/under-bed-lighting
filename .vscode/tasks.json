@@ -4,7 +4,7 @@
     {
       "label": "ESPHome: Compile",
       "type": "shell",
-      "command": "uvx esphome compile devices/under_bed_lighting.yaml",
+      "command": "uvx esphome compile esphome/devices/under_bed_lighting.yaml",
       "problemMatcher": [],
       "group": {
         "kind": "build",
@@ -15,19 +15,19 @@
       "label": "ESPHome: Upload (OTA)",
       "type": "shell",
       "problemMatcher": [],
-      "command": "uvx esphome upload devices/under_bed_lighting.yaml",
+      "command": "uvx esphome upload esphome/devices/under_bed_lighting.yaml",
     },
     {
       "label": "ESPHome: Logs",
       "type": "shell",
       "problemMatcher": [],
-      "command": "uvx esphome logs devices/under_bed_lighting.yaml"
+      "command": "uvx esphome logs esphome/devices/under_bed_lighting.yaml"
     },
     {
       "label": "ESPHome: Upload (USB)",
       "type": "shell",
       "problemMatcher": [],
-      "command": "uvx esphome upload devices/under_bed_lighting.yaml --device ${input:serial_port}",
+      "command": "uvx esphome upload esphome/devices/under_bed_lighting.yaml --device ${input:serial_port}",
     }
   ],
   "inputs": [
