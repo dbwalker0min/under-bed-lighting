@@ -57,16 +57,17 @@ jobs:
           api_key: "${{ secrets.API_KEY }}"
           ap_password: "${{ secrets.AP_PASSWORD }}"
           EOF
+
       - name: Compile ESPHome config
         run: uvx esphome@2026.2.4 compile devices/under_bed_lighting.yaml
 
       - name: Stage release files
         run: |
           mkdir -p release
-          find .esphome/build -name firmware.bin -exec cp {} release/${{ steps.meta.outputs.artifact_name }}.bin \;
-          find .esphome/build -name firmware.ota.bin -exec cp {} release/${{ steps.meta.outputs.artifact_name }}.ota.bin \;
-          find .esphome/build -name firmware.map -exec cp {} release/${{ steps.meta.outputs.artifact_name }}.map \;
-          find .esphome/build -name firmware.factory.bin -exec cp {} release/${{ steps.meta.outputs.artifact_name }}.factory.bin \; || true
+          find devices/.esphome/build -name firmware.bin -exec cp {} release/${{ steps.meta.outputs.artifact_name }}.bin \;
+          find devices/.esphome/build -name firmware.ota.bin -exec cp {} release/${{ steps.meta.outputs.artifact_name }}.ota.bin \;
+          find devices/.esphome/build -name firmware.map -exec cp {} release/${{ steps.meta.outputs.artifact_name }}.map \;
+          find devices/.esphome/build -name firmware.factory.bin -exec cp {} release/${{ steps.meta.outputs.artifact_name }}.factory.bin \; || true
 
       - name: Upload staged release files
         uses: actions/upload-artifact@v4
