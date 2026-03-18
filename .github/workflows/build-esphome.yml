@@ -54,8 +54,8 @@ jobs:
           cat > devices/secrets.yaml <<'EOF'
           wifi_ssid: "${{ secrets.WIFI_SSID }}"
           wifi_password: "${{ secrets.WIFI_PASSWORD }}"
-          api_key: "${{ secrets.API_ENCRYPTION_KEY }}"
-          ap_password: "${{ secrets.OTA_PASSWORD }}"
+          api_key: "${{ secrets.API_KEY }}"
+          ap_password: "${{ secrets.AP_PASSWORD }}"
           EOF
       - name: Compile ESPHome config
         run: uvx esphome@2026.2.4 compile devices/under_bed_lighting.yaml
