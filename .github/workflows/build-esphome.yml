@@ -16,6 +16,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      ESPHOME_VERSION: 2026.2.4
+
     defaults:
       run:
         shell: bash
@@ -33,10 +36,12 @@ jobs:
       - name: Cache PlatformIO
         uses: actions/cache@v4
         with:
-          path: ~/.platformio
-          key: platformio-${{ runner.os }}-esphome-2025.2.2
+          path: |
+            ~/.platformio
+            devices/.esphome
+          key: platformio-${{ runner.os }}-esphome-${{ env.ESPHOME_VERSION }}
           restore-keys: |
-            platformio-${{ runner.os }}-
+            platformio-${{ runner.os }}-${{ env.ESPHOME_VERSION }}
 
       - name: Determine artifact name
         id: meta
@@ -59,7 +64,7 @@ jobs:
           EOF
 
       - name: Compile ESPHome config
-        run: uvx esphome@2026.2.4 compile devices/under_bed_lighting.yaml
+        run: uvx esphome@${{ env.ESPHOME_VERSION }} compile devices/under_bed_lighting.yaml
 
       - name: Stage release files
         run: |
