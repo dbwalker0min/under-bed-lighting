@@ -68,8 +68,8 @@ jobs:
 
       - name: Show directory structure
         run: |
-          echo "=== esphome ==="
-          find esphome -maxdepth 4 -type d | sort
+          ls -R -d .
+          ls -R -d ~/
       
           echo
           echo "=== files ==="
