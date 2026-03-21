@@ -68,13 +68,8 @@ jobs:
 
       - name: Show directory structure
         run: |
-          ls -R -d .
-          ls -R -d ~/
-      
-          echo
-          echo "=== files ==="
-          find esphome -maxdepth 4 -type f | sort | head -200
-
+          find . -type d | sort 
+          find ~/ -type d | sort
 
       - name: Stage release files
         run: |
