@@ -66,6 +66,16 @@ jobs:
       - name: Compile ESPHome config
         run: uvx esphome@${{ env.ESPHOME_VERSION }} compile devices/under_bed_lighting.yaml
 
+      - name: Show directory structure
+        run: |
+          echo "=== esphome ==="
+          find esphome -maxdepth 4 -type d | sort
+      
+          echo
+          echo "=== files ==="
+          find esphome -maxdepth 4 -type f | sort | head -200
+
+
       - name: Stage release files
         run: |
           mkdir -p release
