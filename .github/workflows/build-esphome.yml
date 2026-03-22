@@ -31,12 +31,24 @@ jobs:
           enable-cache: true
 
       - name: Cache PlatformIO
-        uses: actions/cache@v4
+        id: cache-platformio
+        uses: actions/cache@v5
         with:
           path: ~/.platformio
-          key: platformio-${{ runner.os }}-esphome-2025.2.2
+          key: platformio-${{ runner.os }}-esphome-${{ env.ESPHOME_VERSION }}
           restore-keys: |
+            platformio-${{ runner.os }}-esphome-
             platformio-${{ runner.os }}-
+
+      - name: Cache ESPHome build tree
+        id: cache-esphome
+        uses: actions/cache@v5
+        with:
+          path: devices/.esphome
+          key: esphome-build-${{ runner.os }}-${{ env.ESPHOME_VERSION }}-${{ hashFiles('devices/**/*.yaml', 'packages/**/*.yaml', 'common/**/*.yaml') }}
+          restore-keys: |
+            esphome-build-${{ runner.os }}-${{ env.ESPHOME_VERSION }}-
+            esphome-build-${{ runner.os }}-
 
       - name: Determine artifact name
         id: meta
