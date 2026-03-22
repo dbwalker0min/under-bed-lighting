@@ -32,6 +32,9 @@ jobs:
         uses: astral-sh/setup-uv@v7
         with:
           enable-cache: true
+          cache-dependency-glob: |
+            .github/workflows/build-esphome.yml
+          cache-suffix: esphome-${{ env.ESPHOME_VERSION }}
 
       - name: Cache PlatformIO
         id: cache-platformio
@@ -52,7 +55,7 @@ jobs:
           restore-keys: |
             esphome-build-${{ runner.os }}-${{ env.ESPHOME_VERSION }}-
             esphome-build-${{ runner.os }}-
-              
+
       - name: Determine artifact name
         id: meta
         run: |
